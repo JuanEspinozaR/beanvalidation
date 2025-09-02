@@ -4,7 +4,7 @@ This is a @Bean validation example for learning purposes.
 
 In this documentation You'll find how to run the project and detailed documentation to dive in the topic.
 
-📋 Common Validation Annotations
+### 📋 Common Validation Annotations
 
 Here’s a quick reference of the most widely used bean validation constraints:
 

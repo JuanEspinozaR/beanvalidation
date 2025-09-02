@@ -5,9 +5,11 @@ import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController("v1/user")
+@RestController
+@RequestMapping("/v1/user")
 public class BeanValidation {
     @PostMapping("/save")
     public ResponseEntity<String> createUser(@Valid @RequestBody UserDto userDTO) {
